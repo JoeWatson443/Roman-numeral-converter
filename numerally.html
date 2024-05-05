@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Numerally: Roman Numeral Converter">
+        <meta property="og:description" content="Convert all numbers to roman numerals in one place!">
+        <meta property="og:image" content="https://i.imgur.com/jges4P7.png">
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:title" content="Numerally: Roman Numeral Converter">
+        <meta property="twitter:description" content="Convert all numbers to roman numerals in one place!">
+        <meta property="twitter:image" content="https://i.imgur.com/jges4P7.png">
+        <title>Numerally: Say goodbye to numbers, say hello to numerals</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+    <body class="cl-bg">
+        <div id="scroll">
+
+            <header>
+                <div id="nav-wrapper" class="nav-rad cl-nav-grad cl-card-stroke">
+                    <div id="nav-content">
+                        <div id="logo">
+                        </div>
+                        <div data-visible="false" class="menu cl-menu-grad nav-rad">
+                            <div class="menu-content">
+                                <ul role="list" class="menu-links nav-rad fnt-bold">
+                                    <li id="menu-link" ><a href="#converter">converter</a></li>
+                                    <div class="divider"></div>
+                                    <li id="pricing"><a href="">pricing</a></li>
+                                    <div class="divider"></div>
+                                    <li id="contact" ><a href="">contact</a></li>
+                                    <div class="divider"></div>
+                                </ul>
+                                <button id="contact-btn" class="menu-btn btn-rad fnt-bold"> Get in touch</button>
+                            </div>
+                        </div>
+                        <div id="menu-icon" class="hamburger-menu">
+                        </div>
+            
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div id="content">
+                    <div id="hero">
+                        <div class="top-hero">
+                            <button id="cta" class="top-cta fnt-16 fnt-bold rad-1rem cl-bg">
+                                convert your first number <img src="images/arrow-left.svg" alt="arrow-right">
+                            </button>
+                            <div class="hero-text">
+                                <div class="header">
+                                    <h1 class="fnt-h1 fnt-reg">Transform Numbers into Roman Numerals</h1>
+                                </div>
+                                <div class="subheader">
+                                    <h3 class="fnt-h3 fnt-med">Your Ultimate Conversion Tool:</h3>
+                                    <h3 class="fnt-h3 fnt-light">It's now easy as I,II,III</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="stats-row">
+                            <div class="stat cl-card-grad card-rad">
+                                <h2 class="card-number fnt-h2 fnt-reg">MMD+</h2>
+                                <h4 class="card-txt fnt-h4 fnt-reg">numbers converted</h4>
+                            </div>
+                            <div class="stat cl-card-grad card-rad">
+                                <h2 class="card-number fnt-h2 fnt-reg">$CM</h2>
+                                <h4 class="card-txt fnt-h4 fnt-reg">avg customer savings</h4>
+                            </div>
+                            <div class="stat cl-card-grad card-rad">
+                                <h2 class="card-number fnt-h2 fnt-reg">XCV%</h2>
+                                <h4 class="card-txt fnt-h4 fnt-reg">customer satisfaction</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="partners">
+                        <p class=".fnt-16 cl-white">trusted by</p>
+                        <div id="logos" >
+                            <div><img class="logo" src="images/21st_Century_Fox_logo 2.png"></div>
+                            <div><img class="logo" src="images/5guys.png"></div>
+                            <div><img class="logo" src="images/4 seasons.png"></div>
+                            <div><img class="logo" src="images/F1.png"></div>
+                            <div><img class="logo" src="images/O2-logo.png"></div>
+                        </div>
+                    </div>
+                    <div id="converter">
+                        <div class="input-structure cl-card-grad card-rad">
+                            <form id="form" class="input-content">
+                                <label for="number" class="input-label fnt-reg fnt-h3">Enter a Number</label>
+                                <input id="number" class="input-field" type="number">
+                                <button id="convert-btn" class="submit-btn fnt-h4-btn btn-rad fnt-med" type="submit" value="Convert Number"><a href="#output">Convert Number</a></button>
+                            </form>
+                        
+                    </div>
+                    
+                        <div id="output" class="output fnt-h4 hidden cl-card-grad card-rad"></div>
+                    
+                </div>
+            </main>
+            <div id="top-left-blob">
+                <img src="images/top-left-blob.png">
+            </div>
+            <div id="right-blob">
+                <img class="right" src="images/right-blob.png">
+            </div>
+            <div id="bottom-left-blob">
+                <img style="height: 600px;" src="images/bottom-left-blob.png">
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
