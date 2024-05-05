@@ -381,18 +381,18 @@ li a {
 }
 
 .hamburger-menu {
-  background-image: url(images/hamburger.svg);
+  background-image: url(hamburger.svg);
   width: 2rem;
   cursor: pointer;
   aspect-ratio: 1;
 }
 
 .close-menu {
-  background-image: url(images/X.svg);
+  background-image: url(X.svg);
 }
 
 #logo {
-  background-image: url(images/num-logo.svg);
+  background-image: url(num-logo.svg);
   height: 26px;
   min-width: 117px;
 }
