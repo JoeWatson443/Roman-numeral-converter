@@ -730,9 +730,9 @@ li {
     width: 100%;
   }
 
-  /* #converter {
+  #converter {
     width: 100%;
-  } */
+  }
 }
 
 .input-structure::before {
