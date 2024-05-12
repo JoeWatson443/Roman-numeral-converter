@@ -563,7 +563,8 @@ li {
 
 @media screen and (max-width: 816px) {
   #content {
-    margin: 80px auto;
+    margin: 64px auto;
+    gap: 72px
   }
 }
 
